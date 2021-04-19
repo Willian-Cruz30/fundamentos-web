@@ -1,0 +1,55 @@
+/*Estilo da pagina index.html*/
+.center{
+    text-align: center;
+}
+.justify{
+    text-align: justify;
+}
+
+.container{
+    display: flex;
+    flex-flow:row;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu li{
+    display: inline;
+    padding: 15px;
+    text-decoration: none;
+}
+
+#menu li a{
+    text-decoration: none;
+    color:blue;
+    font-size: 20px;
+}
+
+#menu li a:hover{
+    color: green;
+}
+.p-30{
+    padding: 30px;
+}
+.br-50{
+    border-radius: 30%;
+}
+
+.wh-300{
+    width: 500px;
+    height: 500px;
+}
+.tm-social{
+    width: 30px;
+    height: 30px;
+}
+.mb-50{
+    margin-bottom: 50px;
+}
+
+/*Estilo da pagina conatato.html*/
+
+.ml-50{
+    margin-left: 50px;
+
+}
